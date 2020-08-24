@@ -1,0 +1,31 @@
+server:
+  port: 1978
+  servlet:
+    context-path: 
+spring:
+  mvc:
+    view:
+      prefix: /views/
+      suffix: .jsp
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: okothapally74@gmail.com
+    password: Meriba1978
+    properties.mail.smtp:
+                      auth: ture
+                      starttls:
+                         enable: true    
+  datasource:
+    driver-class-name: org.h2.Driver
+    password: 
+    url: jdbc:h2:mem:testdb
+    username: sa
+  jpa:
+    properties:
+      hibernate:
+        format_sql: true
+        show_sql: true
+  
+    database-platform: org.hibernate.dialect.H2Dialect
+ 

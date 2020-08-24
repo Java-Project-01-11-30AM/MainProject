@@ -1,0 +1,12 @@
+Hi  {FNAME}, {LNAME} :
+<br/>
+Welcome to IES family, Your registration is almost completed.Plese use below details to unlock your account.<br/>
+<br/>
+	your email id ${EMAIL}.<br/>
+	your password is ${PWD}<br/>
+	<br/>
+<a href='http://localhost:1978/unlockAcc?email={EMAIL}'>
+Click Here To reset your password</a> <br/>
+<br/>
+Thanks & Regards,<br/>
+IES Team.<br/>
